@@ -88,6 +88,10 @@ nav ul li a:hover {
     width: 100%;
 }
 
+.grid-image-mobile {
+    display: none;
+}
+
 .new-list-container {
     padding: 30px 20px 40px 20px;
     grid-row: 1 / span 2;
@@ -304,13 +308,18 @@ nav ul li a:hover {
         flex-direction: column;
     }
 
-    .grid-image-container img {
-        content: url(/assets/images/image-web-3-mobile.jpg);
-        
-    }
+    
 
     .grid-image-container {
         order: 1;
+    }
+
+    .grid-image-desktop {
+        display: none;
+    }
+
+    .grid-image-mobile {
+        display: block;
     }
 
     .bright-future-container {
